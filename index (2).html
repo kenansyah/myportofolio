@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moh Kenan Syahreza | Informatics & Software Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts: Plus Jakarta Sans for UI + JetBrains Mono for Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Background Grid Pattern -->
+  <div class="bg-grid-pattern"></div>
+
+  <!-- Floating Modern Header -->
+  <header class="navbar-wrapper">
+    <div class="navbar container">
+      <a href="#home" class="brand">
+        <span class="brand-code">&lt;</span>Kenan<span class="brand-accent">.dev</span><span class="brand-code">/&gt;</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#stack" class="nav-item">Tech Stack</a>
+        <a href="#work" class="nav-item">Projects</a>
+      </nav>
+      <a href="#contact" class="btn btn-ocean-nav">Let's Talk</a>
+    </div>
+  </header>
+
+  <main class="container main-content" id="home">
+
+    <!-- HERO SECTION (Split: Intro & Live Code Mockup) -->
+    <section class="hero-bento">
+      <div class="hero-left">
+        <div class="status-pill">
+          <span class="pulse-indicator"></span>
+          <span>Informatics Engineering Student &bull; Available for Projects</span>
+        </div>
+        <h1 class="hero-headline">
+          Building Future Systems with <span class="ocean-text">Code</span> & <span class="ocean-text">Data</span>.
+        </h1>
+        <p class="hero-lead">
+          I'm <strong>Moh Kenan Syahreza</strong>, an aspiring Software Engineer exploring Full-Stack Development and Data Science to engineer functional, real-world solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#work" class="btn btn-ocean">Explore Projects &rarr;</a>
+          <a href="#contact" class="btn btn-outline-ocean">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- Tech Code Mockup: Pure HTML/CSS (No AI images!) -->
+      <div class="hero-right">
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="window-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="terminal-title">developer_profile.cpp</span>
+            <span class="terminal-badge">C++20</span>
+          </div>
+          <div class="terminal-body">
+            <pre><code><span class="c-keyword">#include</span> <span class="c-string">&lt;iostream&gt;</span>
+<span class="c-keyword">#include</span> <span class="c-string">&lt;vector&gt;</span>
+
+<span class="c-keyword">struct</span> <span class="c-type">Engineer</span> {
+  std::string name = <span class="c-string">"Moh Kenan Syahreza"</span>;
+  std::string major = <span class="c-string">"Informatics Engineering"</span>;
+  std::vector&lt;std::string&gt; focus = {
+    <span class="c-string">"Software Engineering"</span>,
+    <span class="c-string">"Full-Stack Web"</span>,
+    <span class="c-string">"Data Science & Analytics"</span>
+  };
+};
+
+<span class="c-keyword">int</span> <span class="c-func">main</span>() {
+  <span class="c-type">Engineer</span> kenan;
+  std::cout &lt;&lt; <span class="c-string">"Ready to create impact!"</span>;
+  <span class="c-keyword">return</span> <span class="c-number">0</span>;
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENTO GRID SYSTEM -->
+    <div class="bento-container" id="about">
+
+      <!-- Bento 1: About Story (Large Card) -->
+      <article class="bento-card bento-about">
+        <div class="card-badge">Biography</div>
+        <h2 class="card-title">About Me</h2>
+        <p class="bento-text">
+          Hello! I’m <strong>MOH KENAN SYAHREZA</strong>, an Informatics Engineering undergraduate student currently learning programming fundamentals, algorithms, and web development.
+        </p>
+        <p class="bento-text">
+          I am passionate about pursuing a career in <strong>Software Engineering</strong>, exploring both Front-End and Back-End development to build functional, user-friendly applications. Alongside software creation, I am also deeply interested in <strong>Data Analysis and Data Science</strong> to uncover meaningful insights from real-world data.
+        </p>
+        <div class="metrics-row">
+          <div class="metric-item">
+            <span class="metric-number">02</span>
+            <span class="metric-label">Key Featured Projects</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number">06</span>
+            <span class="metric-label">Core Tech Stacks</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number">100%</span>
+            <span class="metric-label">Commitment to Growth</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bento 2: Tech Arsenal (Medium Card) -->
+      <article class="bento-card bento-skills" id="stack">
+        <div class="card-badge">Skillset</div>
+        <h2 class="card-title">Technical Arsenal</h2>
+        <p class="card-subtitle">Tools and languages I utilize to write software & analyze data:</p>
+        
+        <div class="skills-pill-grid">
+          <div class="tech-pill">
+            <span class="pill-dot"></span>
+            <strong>C++</strong>
+            <span class="pill-role">OOP & Logic</span>
+          </div>
+          <div class="tech-pill">
+            <span class="pill-dot"></span>
+            <strong>Python</strong>
+            <span class="pill-role">Data & Scripting</span>
+          </div>
+          <div class="tech-pill">
+            <span class="pill-dot"></span>
+            <strong>HTML & CSS</strong>
+            <span class="pill-role">Modern Web UI</span>
+          </div>
+          <div class="tech-pill">
+            <span class="pill-dot"></span>
+            <strong>Figma</strong>
+            <span class="pill-role">UI/UX Design</span>
+          </div>
+          <div class="tech-pill">
+            <span class="pill-dot"></span>
+            <strong>MySQL</strong>
+            <span class="pill-role">Database Management</span>
+          </div>
+          <div class="tech-pill">
+            <span class="pill-dot"></span>
+            <strong>Git & GitHub</strong>
+            <span class="pill-role">Version Control</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bento 3: Project 1 - Restaurant Management System -->
+      <article class="bento-card bento-project" id="work">
+        <div class="card-badge">Project 01 &bull; Software Engineering</div>
+        <h3 class="project-title">Restaurant Management System</h3>
+        <p class="bento-text">
+          A dedicated digital management software designed to automate and streamline daily restaurant workflows. It manages customer orders, table allocations, real-time inventory updates, and billing receipts through robust algorithms.
+        </p>
+
+        <!-- Pure CSS CLI Preview (Interactive look without AI art) -->
+        <div class="project-preview cli-preview">
+          <div class="cli-topbar">
+            <span>&gt;_ terminal execution</span>
+          </div>
+          <div class="cli-content">
+            <p><span class="cli-prompt">$</span> ./restaurant_management_system</p>
+            <p><span class="cli-ok">[SYSTEM OK]</span> Loading Menu Database... 100%</p>
+            <p><span class="cli-info">[INFO]</span> Table #04: Active Order (3 Items)</p>
+            <p><span class="cli-success">[SUCCESS]</span> Invoice #INV-2026-88 Generated.</p>
+          </div>
+        </div>
+
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span class="tag">C++</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">CLI Engine</span>
+          </div>
+          <a href="https://github.com" target="_blank" class="project-action-btn">
+            View on GitHub &rarr;
+          </a>
+        </div>
+      </article>
+
+      <!-- Bento 4: Project 2 - Health Information Mobile App -->
+      <article class="bento-card bento-project">
+        <div class="card-badge">Project 02 &bull; Mobile UI/UX Prototype</div>
+        <h3 class="project-title">Health Information Mobile App</h3>
+        <p class="bento-text">
+          A modern health portal mobile application prototype. Built to empower users with verified medical insights, daily nutrition reminders, emergency telehealth contacts, and interactive symptom self-checks.
+        </p>
+
+        <!-- Pure CSS Mobile Frame UI Preview (Clean Design, No AI images) -->
+        <div class="project-preview phone-preview">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="mock-header">
+                <span>HealthyLife App</span>
+                <span class="mock-badge">Online</span>
+              </div>
+              <div class="mock-card">
+                <p class="mock-card-title">Daily Heart Rate</p>
+                <div class="mock-pulse-bar">
+                  <span class="bar-progress"></span>
+                </div>
+                <span class="mock-val">72 BPM &bull; Normal</span>
+              </div>
+              <div class="mock-pills">
+                <span class="m-pill">Tips</span>
+                <span class="m-pill">Articles</span>
+                <span class="m-pill">Doctors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-meta">
+          <div class="tech-tags">
+            <span class="tag">Figma</span>
+            <span class="tag">Mobile Design</span>
+            <span class="tag">Prototype</span>
+            <span class="tag">UX Research</span>
+          </div>
+          <a href="https://figma.com" target="_blank" class="project-action-btn">
+            Inspect Prototype &rarr;
+          </a>
+        </div>
+      </article>
+
+      <!-- Bento 5: Contact Card (Full Width Banner) -->
+      <article class="bento-card bento-contact" id="contact">
+        <div class="contact-inner">
+          <div class="contact-text-block">
+            <div class="card-badge">Inquiries & Networking</div>
+            <h2 class="card-title">Let's Collaborate on Future Innovations</h2>
+            <p class="bento-text">
+              Have an opportunity, project idea, or just want to discuss software development and data science? My inbox is always open.
+            </p>
+          </div>
+          <div class="contact-links-grid">
+            <a href="mailto:hayhayhalo@gmail.com" class="c-link-box">
+              <span class="c-icon">✉</span>
+              <div class="c-info">
+                <span class="c-label">Email</span>
+                <span class="c-value">hayhayhalo@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/Knansyahreza" target="_blank" class="c-link-box">
+              <span class="c-icon">✦</span>
+              <div class="c-info">
+                <span class="c-label">Instagram</span>
+                <span class="c-value">@Knansyahreza</span>
+              </div>
+            </a>
+            <a href="tel:8888888" class="c-link-box">
+              <span class="c-icon">✆</span>
+              <div class="c-info">
+                <span class="c-label">Phone / WhatsApp</span>
+                <span class="c-value">+62 8888888</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Clean Footer -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <p class="footer-copy">
+        &copy; 2026 <strong>Moh Kenan Syahreza</strong>. Handcrafted with HTML & CSS for English for Informatics Engineering.
+      </p>
+      <div class="footer-badge">
+        <span class="live-dot"></span> Published on GitHub Pages
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
